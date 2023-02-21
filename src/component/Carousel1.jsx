@@ -64,9 +64,10 @@ export default function CaptionCarousel() {
     <Box
       position={'relative'}
       height={'80%'}
-      width={'70%'}
+      width={['100%', '70%']}
       overflow={'hidden'}
-      marginLeft={'19%'}
+      justifyContent={'center'}
+      marginLeft={['0%','15%','19%']}
       marginTop={'-170px'} 
       >
       
@@ -84,7 +85,7 @@ export default function CaptionCarousel() {
       />
       {/* Left Icon */}
       <IconButton
-        marginTop={["-45%","-25%","-15%", "0%"]}
+        marginTop={["-33%","-25%","-15%", "0%"]}
         aria-label="left-arrow"
         variant="ghost"
         color="black"
@@ -98,7 +99,7 @@ export default function CaptionCarousel() {
       </IconButton>
       {/* Right Icon */}
       <IconButton
-      marginTop={["-45%", "-25%","-15%", "0%"]}
+      marginTop={["-33%", "-25%","-15%", "0%"]}
         aria-label="right-arrow"
         variant="ghost"
         color="black"

@@ -37,29 +37,29 @@ import {
              PROJECTS</Text>
              </Box>
              <Box /* backgroundColor={"rgba(128, 128, 128, 0.171)"} */
-               padding={"50px"}
-               paddingRight={"30px"} 
-               marginBottom={"15%"}
+               padding={"10px"}
+               marginBottom={"13%"}
                display={"flex"}
                justifyContent={"space-between"}
+               width={"100%"}
                >
-                <Box display={"grid"} justifyContent={"center"} backgroundColor={'rgba(159, 138, 172, 0.281)'} width={"30%"} padding={"2%"} boxShadow={"xl"}>
+                <Box display={"grid"} justifyContent={"center"} backgroundColor={'rgba(159, 138, 172, 0.281)'} width={[ "50%", "30%"]} padding={"2%"} boxShadow={"xl"}>
                   <Image src={mcburger} width={"100%"} height={"90%"} display={"grid"} justifyContent={"center"}/>
-                  <Link fontSize={{ base: '8px', md: '16px', lg: '23px' }}  justifyContent={"center"} textAlign={"center"} href="https://test-deploy-topaz-nine.vercel.app/" target="_blank"
+                  <Link fontSize={{ base: '12px', md: '16px', lg: '23px' }}  justifyContent={"center"} textAlign={"center"} href="https://test-deploy-topaz-nine.vercel.app/" target="_blank"
               rel="noopener noreferrer">
                     Link
                   </Link>
                 </Box>
-                <Box display={"grid"} justifyContent={"center"} backgroundColor={'rgba(159, 138, 172, 0.281)'} width={"30%"} padding={"2%"} boxShadow={"xl"}>
+                <Box display={"grid"} justifyContent={"center"} backgroundColor={'rgba(159, 138, 172, 0.281)'} width={[ "50%", "30%"]} padding={"2%"} boxShadow={"xl"}>
                   <Image src={food} width={"100%"} height={"90%"} display={"grid"} justifyContent={"center"}/>
-                  <Link fontSize={{ base: '8px', md: '16px', lg: '23px' }}  justifyContent={"center"} textAlign={"center"} href="https://github.com/meliveyrat1/Pi-food" target="_blank"
+                  <Link fontSize={{ base: '12px', md: '16px', lg: '23px' }}  justifyContent={"center"} textAlign={"center"} href="https://github.com/meliveyrat1/Pi-food" target="_blank"
               rel="noopener noreferrer">
                     Repo
                   </Link>
                 </Box>
-                <Box display={"grid"} justifyContent={"center"} backgroundColor={'rgba(159, 138, 172, 0.281)'} width={"30%"} padding={"2%"} boxShadow={"xl"}>
+                <Box display={"grid"} justifyContent={"center"} backgroundColor={'rgba(159, 138, 172, 0.281)'} width={[ "50%", "30%"]} padding={"2%"} boxShadow={"xl"}>
                   <Image src={dogs} width={"100%"} height={"90%"} display={"grid"} justifyContent={"center"}/>
-                  <Link fontSize={{ base: '8px', md: '16px', lg: '23px' }}  justifyContent={"center"} textAlign={"center"} href="https://github.com/meliveyrat1/Dogs-App" target="_blank"
+                  <Link fontSize={{ base: '12px', md: '16px', lg: '23px' }}  justifyContent={"center"} textAlign={"center"} href="https://github.com/meliveyrat1/Dogs-App" target="_blank"
               rel="noopener noreferrer">
                     Repo
                   </Link>

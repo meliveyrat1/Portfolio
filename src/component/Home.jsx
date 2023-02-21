@@ -28,7 +28,7 @@ export default function Home (){
     <br/>
     <br/>
     <br/>
-    <Box display="grid"  justifyContent={"center"} marginTop={'2%'} marginLeft={["42%", "17%", "2%"]} width={["25%", "75%", "15%", "15%"]}> 
+    <Box display="grid"  justifyContent={"center"} marginTop={'2%'} marginLeft={["33%", "13%", "2%"]} width={["35%", "75%", "15%", "15%"]}> 
     <Image src="https://media4.giphy.com/media/StF8grqNK8fOPstPLo/200w.webp?cid=ecf05e47m3xk6ahsyr6tps0yhvaw29uvyyuxjlir3y1fwgp7&rid=200w.webp&ct=s"
     >
     </Image>

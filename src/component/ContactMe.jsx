@@ -93,7 +93,7 @@ import {
              >
              CONTACT ME</Text>
              </Box>
-             <Box backgroundColor={"rgba(128, 128, 128, 0.171)"} padding={"50px"} paddingRight={"30px"} marginBottom={"15%"} display={"flex"} justifyContent={"center"} >
+             <Box backgroundColor={"rgba(128, 128, 128, 0.171)"} padding={"50px"} paddingRight={"30px"} marginBottom={"5%"} display={"flex"} justifyContent={"center"} >
              <Box width={{base:"100%", md:"80%", lg:"40%"}} display={"grid"}/*  marginLeft={"15%"} */>
             <form onSubmit={sendMail}>
                 <Text fontSize={{ base: '9px', md: '12px', lg: '16px' }}>Name</Text>

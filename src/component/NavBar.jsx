@@ -70,7 +70,7 @@ export default function NavBar(){
         <IconButton
           aria-label="Open Menu"
           size="lg"
-          marginLeft={["5px","35px","280px"]}
+          marginLeft={["12px","35px","280px"]}
           mr={2}
           icon={
             <HamburgerIcon />
