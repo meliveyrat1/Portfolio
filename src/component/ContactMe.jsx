@@ -15,7 +15,9 @@ import {
   function validate(input) {
     let errors = {};
   
-    if (!input.user_name) errors.user_name = "Name is required";
+    if (!input.user_name){
+       errors.user_name = "Name is required";
+    }
     if (!input.user_email) {
       errors.user_email = "Email is required";
     }
@@ -45,11 +47,12 @@ import {
         )
         .then((response) => console.log(response))
         .catch((error) => console.log(error));
-      /*  alert("comment sent successfully"); */
-      swal("Comment sent successfully!", {
+        alert("comment sent successfully"); 
+     /*  swal("Comment sent successfully!", {
         buttons: false,
         timer: 2000,
-      });
+        size:"5%"
+      }); */
       setInput({
         user_name: "",
         user_email: "",
@@ -93,15 +96,18 @@ import {
              >
              CONTACT ME</Text>
              </Box>
-             <Box backgroundColor={"rgba(128, 128, 128, 0.171)"} padding={"50px"} paddingRight={"30px"} marginBottom={"5%"} display={"flex"} justifyContent={"center"} >
+             <Box backgroundColor={"rgba(128, 128, 128, 0.171)"} padding={"50px"}
+              paddingRight={"30px"} marginBottom={"5%"} display={"flex"} justifyContent={"center"} >
              <Box width={{base:"100%", md:"80%", lg:"40%"}} display={"grid"}/*  marginLeft={"15%"} */>
             <form onSubmit={sendMail}>
                 <Text fontSize={{ base: '9px', md: '12px', lg: '16px' }}>Name</Text>
               <Input
                 backgroundColor="white"
+                color={"black"}
                 borderColor={"gray"}
                 mb="15px"
                 placeholder="Name"
+
                 fontSize={{ base: '9px', md: '12px', lg: '13px' }}
                 type="text"
                 value={input.user_name}
@@ -117,7 +123,8 @@ import {
               )}
               <Text fontSize={{ base: '9px', md: '12px', lg: '16px' }}>E-mail</Text>
               <Input
-                backgroundColor="white"
+                backgroundColor={"white"}
+                color={"black"}
                 borderColor={"gray"}
                 mb="15px"
                 placeholder="E-Mail"
@@ -136,8 +143,8 @@ import {
                 <Text fontSize={{ base: '9px', md: '12px', lg: '16px' }}>Comment</Text>
               <Textarea
                 backgroundColor="white"
+                color={"black"}
                 borderColor={"gray"}
-                
                 placeholder="Comment... "
                 fontSize={{ base: '9px', md: '12px', lg: '13px' }}
                 type="text"

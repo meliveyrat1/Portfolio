@@ -88,7 +88,7 @@ export default function CaptionCarousel() {
         marginTop={["-33%","-25%","-15%", "0%"]}
         aria-label="left-arrow"
         variant="ghost"
-        color="black"
+        color="gray"
         position="absolute"
         left={side}
         top={top}
@@ -102,7 +102,7 @@ export default function CaptionCarousel() {
       marginTop={["-33%", "-25%","-15%", "0%"]}
         aria-label="right-arrow"
         variant="ghost"
-        color="black"
+        color="gray"
         position="absolute"
         right={side}
         top={top}
