@@ -46,21 +46,21 @@ import {
                 <Box display={"grid"} justifyContent={"center"} backgroundColor={'rgba(159, 138, 172, 0.281)'} width={[ "50%", "30%"]} padding={["1%","2%"]} boxShadow={"xl"}>
                   <Image src={mcburger} width={"100%"} height={"90%"} display={"flex"} justifyContent={"center"}/>
                   <Link fontSize={{ base: '12px', md: '16px', lg: '24px' }}  justifyContent={"center"} textAlign={"center"} href="https://test-deploy-topaz-nine.vercel.app/" target="_blank"
-              rel="noopener noreferrer" marginTop={"-10%"} >
+              rel="noopener noreferrer" marginTop={["-15%","-5%"]} >
                     Link
                   </Link>
                 </Box>
                 <Box display={"grid"} justifyContent={"center"} backgroundColor={'rgba(159, 138, 172, 0.281)'} width={[ "50%", "30%"]} padding={["1%","2%"]} boxShadow={"xl"}>
                   <Image src={food} width={"100%"} height={"90%"} display={"flex"} justifyContent={"center"}/>
                   <Link fontSize={{ base: '12px', md: '16px', lg: '23px' }}  justifyContent={"center"} textAlign={"center"} href="https://github.com/meliveyrat1/Pi-food" target="_blank"
-              rel="noopener noreferrer" marginTop={"-10%"} >
+              rel="noopener noreferrer" marginTop={["-15%","-5%"]} >
                     Repo
                   </Link>
                 </Box>
                 <Box display={"grid"} justifyContent={"center"} backgroundColor={'rgba(159, 138, 172, 0.281)'} width={[ "50%", "30%"]} padding={["1%","2%"]} boxShadow={"xl"}>
                   <Image src={dogs} width={"100%"} height={"90%"} display={"flex"} justifyContent={"center"}/>
                   <Link fontSize={{ base: '12px', md: '16px', lg: '23px' }}  justifyContent={"center"} textAlign={"center"} href="https://github.com/meliveyrat1/Dogs-App" target="_blank"
-              rel="noopener noreferrer" marginTop={"-10%"}>
+              rel="noopener noreferrer" marginTop={["-15%","-5%"]}>
                     Repo
                   </Link>
                 </Box>
