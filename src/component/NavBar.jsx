@@ -37,7 +37,7 @@ export default function NavBar(){
        backgroundColor={'rgb(159, 138, 172)'}
       >
         {/* Desktop */}
-        <Image src={imgLogo} width={["60px","100px"]} marginLeft={"2%"}></Image>
+        <Image src={imgLogo} width={["50px","10%","70px"]} marginLeft={"2%"}></Image>
         <Flex
           display={['none', 'none', 'flex','flex']}
           marginLeft={["34%","34%", "34%","65%", "75%"]}
@@ -69,7 +69,7 @@ export default function NavBar(){
         {/* Mobile */}
         <IconButton
           aria-label="Open Menu"
-          size="lg"
+          size="sm"
           marginLeft={["12px","35px","280px"]}
           mr={2}
           icon={

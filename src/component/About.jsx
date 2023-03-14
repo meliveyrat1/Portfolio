@@ -33,17 +33,17 @@ import {
              >
              ABOUT ME</Text>
              </Box>
-             <Box backgroundColor={"rgba(128, 128, 128, 0.171)"} padding={"50px"} paddingRight={"30px"} marginBottom={"15%"} display={"flex"} justifyContent={"center"} >
+             <Box backgroundColor={"rgba(128, 128, 128, 0.171)"} padding={"50px"} paddingRight={"30px"} marginBottom={"15%"} display={["grid","grid","flex","flex"]} justifyContent={"center"} >
               <Box display={"grid"} width={["40%","20%"]} >
-               <Image src={profile} boxShadow={"dark-lg"} borderRadius={"200px"} marginLeft={["-55%", "0%"]} /> 
+               <Image src={profile} boxShadow={"dark-lg"} borderRadius={"200px"} marginLeft={["65%","185%" ,"0%"]} marginBottom={["35%","25%", "0%"]} /> 
                </Box>
                 <Box backgroundColor={'rgba(159, 138, 172, 0.281)'} width={{base:"120%", md:"80%", lg:"50%"}} 
                 padding={"15px"}
-                marginLeft={["-13%", "3%"]} 
+                marginLeft={["-13%","-13%", "3%"]} 
                 display={"grid"}
                 borderRadius={"5px"}
                 boxShadow={"xl"}>
-                  <Text fontSize={{ base: '9.5px', md: '12px', lg: '16px' }}>
+                  <Text fontSize={{ base: '11px', md: '14px', lg: '16px' }} textAlign={"justify"}>
 I have experience working on FullStack projects developed in the PERN stack with Java Script, Node js, PostgreSQL, Sequelize, Express, React, Redux, HTML, CSS, ChakraUI, working on projects with Scrum methodology. I believe that I can bring a lot of my personality, creativity and knowledge as a developer to companies that are looking for a Full-Stack Web Developer. Something that can complement my skills is having been chosen in a soft skills training program as a Teaching Assistant at Soy Henry for two months, culminating with a Team Work insignia from the students and teammates. For my professional background in gastronomy for 15 years I have good planning skills, problem solving, working under pressure, efficiency to achieve objectives and creativity.</Text>
                 </Box>
                 <Box display="grid"  marginLeft={'3%'} marginTop={'0%'} width={["0%", "50%", "25%", "10%"]}> 
